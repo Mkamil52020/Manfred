@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>*CZEŚĆ*</pattern>
+		<template>
+			<random>
+				<li>Witaj, Programisto!</li>
+				<li>Hello, world!</li>
+				<li>Dzień dobry</li>
+				<li>Cześć</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>*JAK SIĘ NAZYWASZ*</pattern>
+		<template>
+			<random>
+				<li>Nazywam się Manfred</li>
+				<li>Jestem Manfred</li>
+				<li>Manfred Jestem</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<template>
+			<random>
+				<li>O czym możemy porozmawiać?</li>
+				<li>Możesz powiedzieć bardziej zrozumiale?</li>
+				<li>Nie rozumiem o co chodzi.</li>
+				<li>Porozmawiamy o filmach?</li>
+				<li>eee...Ale o co chodzi.</li>
+				<li>Możesz wyrazić się jaśniej?</li>
+				<li>Wybacz ale nie rozumiem co mówisz.</li>
+			</random>
+		</template>
+	</category>
+</aiml>
